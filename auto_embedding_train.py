@@ -25,16 +25,16 @@ class Word_embedding:
     def __init__(self):
         
         # doc训练语料存放位置
-        self.file_path = 'C:\\Users\\z50004593\\Desktop\\训练语料\\word_doc'
+        self.file_path = 'C:\\Users\\Desktop\\训练语料\\word_doc'
         
         # 停用词汇库txt文件存储位置
-        self.stop_word_path = 'C:\\Users\\z50004593\\Desktop\\词库\\停用词库\\word_stop.txt'
+        self.stop_word_path = 'C:\\Users\\Desktop\\词库\\停用词库\\word_stop.txt'
         
         # 已处理的训练语料存放位置
-        self.save_path = 'C:\\Users\\z50004593\\Desktop\\训练语料\\预处理后语料'
+        self.save_path = 'C:\\Users\\Desktop\\训练语料\\预处理后语料'
         
         # 训练后词向量以及模型的存储位置
-        self.embedding_path = 'C:\\Users\\z50004593\\Desktop\\训练语料\\word_embedding_model'
+        self.embedding_path = 'C:\\Users\\Desktop\\训练语料\\word_embedding_model'
         
         # word2vec参数设置
         self.parms={"sg":1, "hs":1,"size":300,"window":10, "min_count":5,
