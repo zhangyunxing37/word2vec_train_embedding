@@ -1,4 +1,5 @@
 # word2vec_train_embedding
+对txt/doc/docx文档进行预处理，并批量化自动化进行词向量训练
 
 # 功能目的
 
